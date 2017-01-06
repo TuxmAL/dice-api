@@ -10,6 +10,9 @@
 /test/version_tmp/
 /tmp/
 
+# Locked Gemfile from bundler
+Gemfile.lock
+
 # Used by dotenv library to load environment variables.
 # .env
 
