@@ -13,6 +13,9 @@
 # Locked Gemfile from bundler
 Gemfile.lock
 
+# KDE file manager folder config
+.directory
+
 # Used by dotenv library to load environment variables.
 # .env
 
