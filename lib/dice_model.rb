@@ -1,3 +1,4 @@
+# encoding: UTF-8
 # dice_model.rb
 
 class Dice

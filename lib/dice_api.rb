@@ -1,3 +1,4 @@
+# encoding: UTF-8
 # dice_api.rb
 
 require 'sinatra'
