@@ -1,7 +1,7 @@
 # encoding: UTF-8
 # doah.rb
 
-get '/pesca/:discard' do
+get '/pesca' do
   return_message = {}
   return_message[:status] = 'Ok'
   if params.has_key?('discard') then
