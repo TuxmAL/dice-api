@@ -21,9 +21,9 @@ class DevOpsAgainstHumanityDeck
   def draw(discard = 0)
     raise RuntimeError, "You are allowed to discard zero to 10 card at least." if discard < 0 
     raise RuntimeError, "No more than 10 cards allowed to be discarded." if discard > 10 
-    draw =  (" #{black.sample} ".gsub(/( +)?(\b|[^_])_+(\b|[^_])( +)?/) {" #{white.sample.downcase} "}).strip.gsub(/\s+([.,!?;:])/, '\1')
+    draw =  (" #{@black.sample} ".gsub(/( +)?(\b|[^_])_+(\b|[^_])( +)?/) {" #{@white.sample.downcase} "}).strip.gsub(/\s+([.,!?;:])/, '\1')
     for i in 1..discard
-      draw =  (" #{black.sample} ".gsub(/( +)?(\b|[^_])_+(\b|[^_])( +)?/) {" #{white.sample.downcase} "}).strip.gsub(/\s+([.,!?;:])/, '\1')
+      draw =  (" #{@black.sample} ".gsub(/( +)?(\b|[^_])_+(\b|[^_])( +)?/) {" #{@white.sample.downcase} "}).strip.gsub(/\s+([.,!?;:])/, '\1')
     end
     return draw
   end
