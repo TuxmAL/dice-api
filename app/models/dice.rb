@@ -1,5 +1,5 @@
 # encoding: UTF-8
-# dice_model.rb
+# dice.rb
 
 class Dice
 

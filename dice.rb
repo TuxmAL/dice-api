@@ -1,6 +1,6 @@
 # encoding: UTF-8
 # dice.rb
-require_relative 'app/dice_model'
-require_relative 'app/dice_api'
+root = ::File.dirname(__FILE__)
+require ::File.join( root, 'app' )
 
 Sinatra::Application.run!

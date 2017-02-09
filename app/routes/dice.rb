@@ -1,16 +1,5 @@
 # encoding: UTF-8
-# dice_api.rb
-
-require 'sinatra'
-require 'json'
-require_relative 'dice_model'
-
-dice = Dice.new
-
-###### Sinatra Part ###### 
-
-#set :port, 8080 
-#set :environment, :production
+# dice.rb
 
 after do
     response['Access-Control-Allow-Origin']="*" unless settings.production?
@@ -41,18 +30,3 @@ get '/lancia/:num_dice' do
   end
   return_message.to_json
 end 
-
-# post '/usa/:faces' do
-#   return_message = {} 
-#   return_message[:status] = 'Error - too much faces in a dice!' if faces > 65535 
-#   faces = JSON.parse(params[:faces],:symbolize_names => true)   
-# end
-# 
-# post '/join' do 
-#   if jdata.has_key?(:name) && uno.join_game(jdata[:name]) 
-#     return_message[:status] = 'welcome' 
-#   else 
-#     return_message[:status] = 'sorry - game not accepting new players' 
-#   end 
-#   return_message.to_json 
-# end 
