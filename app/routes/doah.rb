@@ -3,10 +3,6 @@
 
 deck  = DevOpsAgainstHumanityDeck.new
 
-after do
-    response['Access-Control-Allow-Origin']="*" unless settings.production?
-end
-
 get '/pesca/:discard' do
   return_message = {}
   return_message[:status] = 'Ok'

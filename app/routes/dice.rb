@@ -1,10 +1,6 @@
 # encoding: UTF-8
 # dice.rb
 
-after do
-    response['Access-Control-Allow-Origin']="*" unless settings.production?
-end
-
 get '/lancia/:num_dice' do
   return_message = {}
   return_message[:status] = 'Ok'

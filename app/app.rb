@@ -7,6 +7,10 @@ require 'open-uri'
 require_relative 'models/dice'
 require_relative 'models/doah_deck'
 
+after do
+  response['Access-Control-Allow-Origin']="*" unless settings.production?
+end
+
 require_relative 'routes/dice'
 require_relative 'routes/doah'
 
