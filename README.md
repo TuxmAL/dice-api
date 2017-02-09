@@ -14,5 +14,5 @@ Cheers!
 Antonio "_TuxmAL_" Liccardo
 
 ---
-[1] https://tuxmal.noip.me/dadi.html
-[2] https://github.com/bridgetkromhout/devops-against-humanity
+[1] https://tuxmal.noip.me/dadi.html  
+[2] https://github.com/bridgetkromhout/devops-against-humanity  
