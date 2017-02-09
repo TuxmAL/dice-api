@@ -11,6 +11,14 @@ after do
   response['Access-Control-Allow-Origin']="*" unless settings.production?
 end
 
+before '/lancia/:num_dice' do
+  @dice = Dice.new
+end
+
+before '/pesca' do
+  @deck = DevOpsAgainstHumanityDeck.new
+end
+
 require_relative 'routes/dice'
 require_relative 'routes/doah'
 
@@ -18,5 +26,3 @@ require_relative 'routes/doah'
 set :environment, :production
 set :run, false
 
-dice = Dice.new
-deck = DevOpsAgainstHumanityDeck.new

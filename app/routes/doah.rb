@@ -1,8 +1,6 @@
 # encoding: UTF-8
 # doah.rb
 
-deck  = DevOpsAgainstHumanityDeck.new
-
 get '/pesca/:discard' do
   return_message = {}
   return_message[:status] = 'Ok'
@@ -14,7 +12,7 @@ get '/pesca/:discard' do
   scartando ||= 0
 
   if (return_message[:status] == 'Ok') then
-    r = deck.draw(scartando)
+    r = @deck.draw(scartando)
     return_message[:discarded] = discard
     return_message[:value] = r
   end
