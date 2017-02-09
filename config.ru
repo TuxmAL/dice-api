@@ -5,6 +5,6 @@ set :environment, :production
 set :run, false
 
 root = ::File.dirname(__FILE__)
-require ::File.join( root, 'app' )
+require ::File.join( root, 'app/app' )
 
 run Sinatra::Application
