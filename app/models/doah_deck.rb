@@ -9,7 +9,7 @@ class DevOpsAgainstHumanityDeck
     url = (local_deck)? ::File.join(Sinatra::Application::settings.root, '/resources/'): 'https://raw.githubusercontent.com/bridgetkromhout/devops-against-humanity/master/'
     url += 'cards-DevOpsAgainstHumanity.csv'
     #puts "Getting deck from #{url}."
-    csv = CSV.new(open(url))
+    csv = CSV.new(open(url, "r:UTF-8"))
     @white=[]
     @black=[]
     csv.each do |row|
