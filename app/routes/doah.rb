@@ -12,7 +12,7 @@ get '/pesca' do
   scartando ||= 0
 
   if (return_message[:status] == 'Ok') then
-    r = @deck.draw(scartando)
+    r = settings.deck.draw(scartando)
     return_message[:discarded] = scartando
     return_message[:value] = r
   end

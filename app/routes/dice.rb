@@ -18,7 +18,7 @@ get '/lancia/:num_dice' do
   faces ||= 2
 
   if (return_message[:status] == 'Ok') then
-    r = @dice.roll!(num_dice, faces)
+    r = settings.dice.roll!(num_dice, faces)
     return_message[:dice] = num_dice
     return_message[:faces] = faces
     return_message[:throw] = r
