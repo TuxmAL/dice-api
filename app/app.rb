@@ -9,6 +9,7 @@ require_relative 'models/doah_deck'
 
 set :dice, Dice.new
 set :deck, DevOpsAgainstHumanityDeck.new
+set :bofh_gen, BastardOperatorFromHellGen.new
 
 after do
   response['Access-Control-Allow-Origin']="*" unless settings.production?
