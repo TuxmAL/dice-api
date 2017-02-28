@@ -1,4 +1,4 @@
-# encoding: UTF-8
+# encoding: utf-8
 # dice.rb
 
 get '/lancia/:num_dice' do

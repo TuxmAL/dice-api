@@ -1,5 +1,5 @@
-# encoding: UTF-8
-# dice.rb
+# encoding: utf-8
+# doah_deck.rb
 
 class DevOpsAgainstHumanityDeck
 # github master: 'https://raw.githubusercontent.com/bridgetkromhout/devops-against-humanity/master/cards-DevOpsAgainstHumanity.csv'
