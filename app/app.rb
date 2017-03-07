@@ -6,10 +6,11 @@ require 'open-uri'
 
 require_relative 'models/dice'
 require_relative 'models/doah_deck'
+require_relative 'models/bofh_gen'
 
 set :dice, Dice.new
 set :deck, DevOpsAgainstHumanityDeck.new
-set :bofh_gen, BastardOperatorFromHellGen.new
+set :bofh_gen, BastardOperatorsFromHellGen.new
 
 after do
   response['Access-Control-Allow-Origin']="*" unless settings.production?
