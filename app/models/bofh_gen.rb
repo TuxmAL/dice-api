@@ -24,7 +24,7 @@ class BastardOperatorsFromHellGen
                        Streaming Retrieval Installation Library Handler )
     @third_term = %w( Interruption Destabilisation Destruction Desynchronisation
                       Failure Dereferencing Overflow Underflow NMI Interrupt
-                      Corruption Anomoly Seizure Override Reclock Rejection
+                      Corruption Anomaly Seizure Override Reclock Rejection
                       Invalidation Halt Exhaustion Infection Incompatibility Timeout
                       Expiry Unavailability Bug Condition Crash Dump Crashdump
                       Stackdump Problem Lockout )
