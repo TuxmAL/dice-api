@@ -1,8 +1,8 @@
 # encoding: utf-8
-# doah.rb
+# bofh_gen.rb
 
 get '/genera' do
   return_message = {}
-  return_message[:value] = @bofh_gen.generate
+  return_message[:value] = settings.bofh_gen.generate
   return_message.to_json
 end 
