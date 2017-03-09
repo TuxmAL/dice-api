@@ -35,4 +35,12 @@ class BastardOperatorsFromHellGen
     "#{(a = @option_term.sample).empty? ? '': a +': ' }#{@first_term.sample} #{@second_term.sample} #{@third_term.sample}."
   end
 
+  def extract
+    #########
+    # Ruby: What's an elegant way to pick a random line from a text file?
+    # answer: http://stackoverflow.com/a/11007320/11594
+    file = File.join(Sinatra::Application::settings.root, '/resources/bofh_excuses.txt')
+    line = File.foreach(file).each_with_index.reduce(nil) { |picked, pair| rand < 1.0 / (1 + pair[1])? pair[0]: picked }
+    line.chomp
+  end
 end
