@@ -18,6 +18,7 @@ end
 
 require_relative 'routes/dice'
 require_relative 'routes/doah'
+require_relative 'routes/bofh_gen'
 
 #set :port, 9292 
 set :environment, :production
