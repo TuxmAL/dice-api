@@ -90,7 +90,7 @@ Cloud-based business strategy,My next blog post will be about how we used ______
 Cloud 2.0,"So, I was using Wireshark to check network traffic... Did you know we have ________________ in production?"
 The next Y2K,My eyes started bleeding when I opened the editor and saw _______________.
 "An army of chaos monkeys, all carrying flamethrowers",I think maybe I'll leave ______________ off my resumé.
-A CORBA service written in Ada which communicates using JSONx,We don't need ______________ - we have _______________ !
+A CORBA service written in Ada which communicates using JSONx,We don't need ______________ - we have _______________!
 A home-rolled systemd replacement,Management just told me I need to get certified in ____________________.
 A custom kernel with Frontpage Extensions installed,"Our app is like ___________, but for ________________."
 A mobile web 2.0 RIA,"Marketing says we're leaders in the _______________ space, but I think it's more accurate to say we specialize in ___________."
@@ -141,7 +141,7 @@ Gigadevops,If it weren't for __________ we'd all be ___________.
 Enterprise Grade Bash scripts,"_______, _______ and just a few lines of Perl."
 Agile,NoSQL is superior to SQL because __________
 A pink sombrero and a fifth of tequila,Script kiddies got into _________ because _________.
-A simple 15 level Hiera hierarachy,______________is better than hadoop because ___________
+A simple 15 level Hiera hierarchy,______________is better than hadoop because ___________
 lolscale.,Disturbing ____ leaves ____ fucked
 CouchDB,Rub a little _____________ on it
 GeoCouchDB,"WAIT, YOU DELETED _______‽‽‽"
@@ -184,7 +184,7 @@ out-of-band access,The client says it needs more _________ .
 rm -rf /,We're a __________ as a Service company.
 kill -9,I could hire a __________ to do your job!
 a series of tiny shellscripts,"My next Velocity talk is called ""____ops"""
-Dogecoin,The RFO for the global outage was ____ compunded by _____
+Dogecoin,The RFO for the global outage was ____ compounded by _____
 Kernel panic,I was hired to maintain this 20 year old script that runs our critical _______ infrastructure.
 Hugops!,Amazon Elastic _________
 Lolcats,"I know we use __________, but I wrote this critical program in __________."
@@ -227,7 +227,7 @@ Read-only Fridays,You can't fix _________
 r/sysadmin,How hard could it be to port Linux to ___________.
 Distributed Computing,I just finished working on my rocket powered _______.
 Sprint Planning,Richard Stallman will kill you with his teeth for __________.
-Merge Conflicts,DB tuning wiith _______.
+Merge Conflicts,DB tuning with _______.
 "# we *LIE* about what happened and return a ""success""",Can anyone help me get _______ running on Cisco IOS?
 Unplugging a server and waiting to see who complains,Real _________ don't use ______________
 THE MAGMA PEOPLE ARE WAITING FOR OUR MISTAKES.,________ on XEN
@@ -301,11 +301,11 @@ Temporary hotfixes,We should try it with an actual _________.
 jsLinux,Is __________ something we need to optimize for?
 SIGKILL,Hack __________ into redis.
 Your private browsing history,_______ Considered Harmful
-Wearing protection during peer programing.,never ________ before a demonstration
+Wearing protection during peer programming.,never ________ before a demonstration
 top,The ___________ is used when the CPU is on fire
 Arguing over the internet.,modperl can be used to implement _______________
 year 2038,__________ runs Ruby as root
-dd,Larry Wall trained as missonary then _________________
+dd,Larry Wall trained as missionary then _________________
 pdisk,Listening to the fans in the server farm leads to _________________
 rsync,_________ and _____________ are rumoured to be working on a python module for a helicam
 CFLAGS,A lot of disk space is needed for __________
@@ -345,7 +345,7 @@ raspberryPI,_____ makes robots moves
 Windows ME,I just finished writing an API for _____.
 @echo off,_____ is a batch command to shut the fuck up
 Active Directory,_____.  Failed to cache catalog.
-conflict minerals,Everytime you allocate you have to _______ when you're done
+conflict minerals,Every time you allocate you have to _______ when you're done
 continuous incineration,"Sorry, I'm all out of _____-fu."
 The gentle sound of weeping drifting from the server room,90% of everything is __________.
 eventual consistency,"Given enough _____, all bugs are _____."
@@ -363,7 +363,7 @@ An outage window,"Just change the ________, it'll be fine. "
 Sentinel System Driver,"Yeah, you need to modprobe ________ to get it to recognize the ________"
 fpm,"Oh, we're devops! We have ______ in the office, but only the DBA can touch it."
 catastrophic cancellation,We're spending 20% of this sprint doing ________.
-termcap,_________ found a new OpenSSL vulernability people are calling _______.
+termcap,_________ found a new OpenSSL vulnerability people are calling _______.
 f00d,Management has changed all our job titles to _________.
 one giant SPOF,while true; do ____; done
 Richard Stallman's Neckbeard,The consultant we hired is certain that _____________ will drastically increase the performance of ___________
@@ -448,7 +448,7 @@ Testing positive for mongonucleosis,End-to-end _____.
 PEBKAC,
 ReiserFS,
 /dev/null,It's like _____ on _____.
-little Bobby Tables,________ will help you remember to sanitze your database inputs.
+little Bobby Tables,________ will help you remember to sanitize your database inputs.
 solar flares,
 global warming,
 Short Stroking,
@@ -491,7 +491,7 @@ dev,
 java,_____ ate all my memory
 geometric distances,
 Indian Ocean,
-,We accidently the whole _____..
+,We accidentally the whole _____.
 rm -rf /,It's easy! Just run _____
 hunter2,I assure you _____ is secure!
 GCHQ,
