@@ -34,7 +34,7 @@ private
   def get_quotes()
     quotes = []
     begin
-      yaml_content = open('http://hackersays.it/quotes') { |f| f.read }
+      yaml_content = open('http://hackersays.com/quotes') { |f| f.read }
       yaml_quotes = YAML::load(yaml_content)
       yaml_quotes.each do |quote|
         quotes << "#{quote['c']}\n-- #{quote['a'] || "Anonymous"}"
