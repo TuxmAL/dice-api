@@ -24,7 +24,7 @@ class HackerSays
       q = quotes.pop
     else
       @acknowledgement = ACK_EVERY_NUM_QUOTES
-      q = 'Quotes for hackersays are from http://hackersays.com/\n-- Thanks to Jarmo Pertman (@jarm0) and  Andri Möll (@theml)'
+      q = "Quotes are from http://hackersays.com/\n-- Thanks to Jarmo Pertman (@jarm0) and Andri Möll (@theml)"
     end
     return q
   end
