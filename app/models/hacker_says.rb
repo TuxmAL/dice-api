@@ -18,14 +18,10 @@ class HackerSays
   end
 
   def quote()
-    q = ''
-    if @acknowledgement > 0
-      @acknowledgement -= 1
-      q = quotes.pop
-    else
-      @acknowledgement = ACK_EVERY_NUM_QUOTES
-      q = "Quotes are from http://hackersays.com/\n-- Thanks to Jarmo Pertman (@jarm0) and Andri Möll (@theml)"
-    end
+    q = quotes.pop
+    q += "\nQuotes are from http://hackersays.com/\n-- Thanks to Jarmo Pertman (@jarm0) and Andri Möll (@theml)" if @acknowledgement == ACK_EVERY_NUM_QUOTES
+    @acknowledgement -= 1
+    @acknowledgement = ACK_EVERY_NUM_QUOTES if @acknowledgement < 0
     return q
   end
 
