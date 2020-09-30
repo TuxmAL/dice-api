@@ -3,6 +3,8 @@
 # story_gen.rb
 require 'tracery'
 
+require_relative 'mods_it_basic'
+# require 'mods-eng-basic'
 class StoryGen
   include Tracery
 
@@ -24,6 +26,7 @@ class StoryGen
       'origine': ['#[eroe:#nome#][prod:#prodotto#]storia#']
     }
     @grammar = createGrammar(story)
+    @grammar.addModifiers(Modifiers.baseItModifiers);
     @grammar.clearState
   end
 
