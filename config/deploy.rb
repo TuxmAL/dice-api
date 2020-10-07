@@ -3,7 +3,7 @@
 # config valid only for current version of Capistrano
 lock '3.11.2'
 set :application, 'dice-api'
-set :repo_url, "tony@#{my_first_private_ipv4.ip_address}:/home/tony/Progetti/dice-api" # path to local git repository
+set :repo_url, 'git@github.com:TuxmAL/dice-api.git'
 set :branch, 'master'
 set :deploy_to, '/var/www/ruby/dice-api'
 
