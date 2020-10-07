@@ -4,6 +4,14 @@ require 'capistrano/setup'
 # Include default deployment tasks
 require 'capistrano/deploy'
 
+# New for Capistrano 3.11.2
+# Deprecation Notice:
+# `set :scm, :git` is deprecated.
+# To ensure your project is compatible with future versions of Capistrano,
+# remove the :scm setting and instead add these lines to your Capfile
+require 'capistrano/scm/git'
+install_plugin Capistrano::SCM::Git
+
 # Include tasks from other gems included in your Gemfile
 #
 # For documentation on these, see for example:

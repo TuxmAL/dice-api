@@ -2,7 +2,6 @@
 lock '3.11.2'
 set :application, 'dice-api'
 set :use_sudo, true
-set :scm, :git
 set :repo_url, "tony@#{my_first_private_ipv4.ip_address}:/home/tony/Progetti/dice-api" # path to local git repository
 set :branch, 'master'
 set :deploy_to, '/var/www/ruby/dice-api'
