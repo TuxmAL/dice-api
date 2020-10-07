@@ -7,6 +7,6 @@ gem 'sinatra'
 gem 'tracery'
 
 group :development do
-  gem "thin"
+  gem "puma"
   gem 'capistrano'
 end
