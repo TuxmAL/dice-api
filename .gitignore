@@ -57,3 +57,6 @@ build-iPhoneSimulator/
 
 # Resource no to save on git
 non-git-res
+
+# Log files
+*.log
