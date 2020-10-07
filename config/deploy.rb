@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '3.10.2'
+lock '3.11.2'
 set :application, 'dice-api'
 set :use_sudo, true
 set :scm, :git
