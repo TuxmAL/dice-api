@@ -17,8 +17,13 @@ class StoryGen
                    'Lisp', 'Javascript', 'Smalltalk', 'Prolog'],
       'umore': %w[indispettito indignato appassionato malinconico astuto cortese paranoico accalorato glaciale
                   distaccato imperturbabile agghiacciato entusiasta],
+      'qualita': %w[appassionato astuto paranoico distaccato imperturbabile entusiasta eccentrico normale professionale incompetente dilettante],
       'motivation': ['semplice', 'complicato', 'incasinato', 'inusabile', 'teorico', 'di basso livello', 'generico',
                      'duttile', 'difficile', 'illegibile', 'imperativo', 'orientato ai messaggi'],
+      'modalita': ['complicato', 'incasinato', 'semplice', 'complesso', 'comodo', 'scomodo', 'facile', 'difficile',
+                   'agevole', 'disagevole', 'da #tipo#', 'come #comparativo#' ],
+      'tipo': %w[geek nerd n00b esperti lamer professionista acker],
+      'comparativo': %w[volare viaggiare drogarsi giocare studiare lavorare disegnare scrivere dipingere cucinare],
       'avversativa': ['ma', 'tuttavia', 'eppure', 'invece', 'nondimeno', 'però', 'mentre', 'anzi',
                       'd\'altra parte', 'd\'altro canto', 'comunque'],
       'avversativa_cond': %w[nonostante, sebbene],
@@ -27,11 +32,14 @@ class StoryGen
       'aspettativa': %w[contento felice arrabbiato critico deluso sorpreso disinteressato indifferente sbalordito
                         meravigliato],
       'prodotto': %w[Lotus123 Visicalc Wordstar Tetris Breakout Galaga Apache OpenSSL Tomcat OpenOffice Gimp Netscape Vim Edlin Emacs Textedit],
+      'hardware': ['Arduino', 'Raspberry PI', 'XBox', 'Playstation', 'Wii', 'Switch', 'Android', 'ZX Spectrum',
+                   'Commodore 64', 'jail-broken iPhone', 'MacBook', 'Core i7 PC', 'Ryzen 7 PC'],
       'storia': [
                  '#eroe#, #umore#, creò #ling# perché #linguaggio# era troppo #motivation#. #avversativa.maius# #nome# #forse_nega# ne fu #aspettativa#.',
-                 '#eroe# e #nome#, #umore.plur#, adottarono #linguaggio# per scrivere #prodotto#. #aspettativa.un.maius# #nome# ne fu #umore#.',
-                 '#forse_tutti.strizza.maius# sanno che #nome# riscrisse #prodotto# in #linguaggio#, peccato non poter trovare i sorgenti facilmente!',
-                 'Si dice che riscrivere #ling# in #ling# #forse_nega# fosse lo scopo ultimo di un #umore# #nome#.'
+                 '#eroe# e #nome#, #umore.plur#, adottarono #ling# per scrivere #prodotto#. #aspettativa.un.maius# #nome# ne fu #umore#.',
+                 '#forse_tutti.strizza.maius# sanno che #nome# riscrisse #prodotto# in #ling#, peccato non poter trovare i sorgenti facilmente!',
+                 'Si dice che riscrivere #ling# in #ling# #forse_nega# fosse lo scopo ultimo di un #umore# #nome#.',
+                 'Lavorare su #hardware# con #ling# è #modalita#, ma si sa, io sono #qualita#.'
                 ],
       'origine': ['#[eroe:#nome#][ling:#linguaggio#]storia.strizza#']
     }
