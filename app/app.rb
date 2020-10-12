@@ -16,7 +16,8 @@ set :dice, Dice.new
 set :deck, DevOpsAgainstHumanityDeck.new
 set :bofh_gen, BastardOperatorsFromHellGen.new
 set :hacker_says, HackerSays.new
-set :story_gen, StoryGen.new
+set :story_gen, StoryGen.new('it')
+set :story_gen_en, StoryGen.new('en')
 
 after do
   response['Access-Control-Allow-Origin'] = '*' unless settings.production?
