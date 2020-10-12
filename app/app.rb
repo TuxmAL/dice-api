@@ -1,4 +1,5 @@
-# encoding: utf-8
+# frozen_string_literal: true
+
 require 'sinatra'
 require 'json'
 require 'yaml'
@@ -18,7 +19,7 @@ set :hacker_says, HackerSays.new
 set :story_gen, StoryGen.new
 
 after do
-  response['Access-Control-Allow-Origin']="*" unless settings.production?
+  response['Access-Control-Allow-Origin'] = '*' unless settings.production?
 end
 
 require_relative 'routes/dice'
@@ -27,7 +28,6 @@ require_relative 'routes/bofh_gen'
 require_relative 'routes/hckr_says'
 require_relative 'routes/story_gen'
 
-#set :port, 9292 
+# set :port, 9292
 set :environment, :production
 set :run, false
-
