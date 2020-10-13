@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-# encoding: utf-8
+
 # story_gen.rb
 
 get '/racconta' do
