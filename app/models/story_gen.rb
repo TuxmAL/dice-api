@@ -77,7 +77,7 @@ class StoryGen
         '#hero#, #mood#, created #lang# because #language# was too #motivation#. #adversative.capitalize# #name# was#may_negate# #expectation# about it.',
         '#hero# and #name#, #mood.s#, adopted #lang# for writing #product#. #expectation.a.capitalize# #name# was #mood# with it.',
         '#maybe_all.capitalize# knows that #name# rewrote #product# in #lang#, it\'s such a shame not to be able to easily find the source code!',
-        'It is said that rewiting #lang# in #lang# was#may_negate# the ultimate goal of a #mood# #name#.',
+        'It is said that rewriting #lang# in #lang# was#may_negate# the ultimate goal of a #mood# #name#.',
         'Working on #hardware# with #lang# is #mode# but, you know, I\'m #attribute#.'
       ],
       'origin': ['#[hero:#name#][lang:#language#]story#']
